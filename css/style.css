@@ -13,7 +13,7 @@ body{
     height: 100vh;
     background: black;
     font-family: monospace, 'Chivo Mono';
-    color: rgb(0, 217, 217);
+    color: rgb(227 227 227);
     scroll-behavior: smooth;
 }
 
