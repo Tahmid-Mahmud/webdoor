@@ -1,0 +1,40 @@
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+
+*:not(#note){
+    margin: 0px;
+    padding: 0px; 
+    /* border: 1px solid red; */
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    font-family: monospace, 'Chivo Mono';
+    color: rgb(0, 217, 217);
+    scroll-behavior: smooth;
+}
+
+
+#scl{
+    font-size: 50px;
+    position: absolute;
+    bottom: 100px;
+    color: red;
+}
+
+
+#cursor{
+    /* position: relative;
+    right: 5px; */
+    /* font-size: 0.8rem; */
+    /* background-color: rgb(255, 255, 255); */
+    opacity: 0.9;
+}
+
+/* @keyframes blink {
+    from { opacity: 0.8; }
+    to { opacity: 0; }
+} */
